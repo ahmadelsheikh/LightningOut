@@ -1,5 +1,5 @@
 <html>
-    <title></title>
+      <body>
 <script src="https://omnicanal--f2ml.sandbox.my.site.com/f2ml/lightning/lightning.out.js"></script>
     <script>
   $Lightning.use(
@@ -18,6 +18,6 @@
     "https://omnicanal--f2ml.sandbox.my.site.com/f2ml", // Site endpoint
   );
 </script>
-</html>
+      </body>
   
 </html>
