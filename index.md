@@ -1,5 +1,10 @@
 <html>
       <body>
+            <div id="console">
+
+        <div id="lightningComponent" />
+
+    </div>
 <script src="https://omnicanal--f2ml.sandbox.my.site.com/f2ml/lightning/lightning.out.js"></script>
     <script>
   $Lightning.use(
