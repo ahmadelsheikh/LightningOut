@@ -13,7 +13,8 @@
       // Callback once framework and app loaded
       $Lightning.createComponent(
         "c:ddDSP2Button", // top-level component of your app
-        {}, // attributes to set on the component when created
+        {btnapplicationcode:"github",
+                btncountry : "EG"}, // attributes to set on the component when created
         "lightningComponent", // the DOM location to insert the component
         function (cmp) {
           // callback when component is created and active on the page
