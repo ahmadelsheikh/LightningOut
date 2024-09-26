@@ -126,7 +126,7 @@
         }, "lightningComponent", function(cmp){
             // Some stuff if needed
         });
-    }
+    },
 	"https://omnicanal--f2ml.sandbox.my.salesforce-sites.com/DDDSP2", // Site endpoint
 	);
     }
@@ -214,7 +214,7 @@
         $Lightning.use("c:DSP2ExternalOut", function() {
         $Lightning.createComponent("c:ddDSP2FinalStepPopup", {
         conId:connectionId, ldId:leadId,adpReqId:adpId,isModalOpen:true }, "lightningComponent", function(cmp){});
-    }
+    },
 	"https://omnicanal--f2ml.sandbox.my.salesforce-sites.com/DDDSP2", // Site endpoint
 	);
     
