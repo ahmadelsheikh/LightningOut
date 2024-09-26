@@ -64,6 +64,62 @@
             </style>
         </head>
         <body>
+
+ <div id="inputdata" class="form-container">
+                <div class="checkbox-container">
+                    <div class="slds-checkbox">
+                        <input type="checkbox" name="options" id="toggleCheckbox" />
+                        <label class="slds-checkbox__label" for="toggleCheckbox">
+                            <span class="slds-checkbox_faux"></span>
+                            <span class="slds-form-element__label">Prospect Journey (Y|N)</span>
+                        </label>
+                    </div>
+                </div>
+                <div id="additionalFields" class="additional-fields hidden">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" placeholder="First Name…" class="slds-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" placeholder="Last Name…" class="slds-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email…" class="slds-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" placeholder="Phone…" class="slds-input" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="monthlyPayment">Monthly Payment:</label>
+                    <input type="number" id="monthlyPayment" placeholder="Monthly Payment…" class="slds-input" />
+                </div>
+                <div class="form-group">
+                    <label for="basketURL">Basket URL:</label>
+                    <input type="text" id="basketURL" placeholder="Basket URL…" class="slds-input" />
+                </div>
+                <div class="form-group">
+                    <label for="mopId">MOPId:</label>
+                    <input type="text" id="mopId" placeholder="MOPId…" class="slds-input" />
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" placeholder="Country…" class="slds-input" />
+                </div>
+                <div class="form-group">
+                    <label for="applicationName">Application Name:</label>
+                    <input type="text" id="applicationName" placeholder="Application Name…" class="slds-input" />
+                </div>
+                
+            </div>
+            <div id="console">
+                <div id="lightningComponent"></div>
+            </div>
+            <div id="spinner" class="spinner"></div>
 <script src="https://omnicanal--f2ml.sandbox.my.salesforce-sites.com/DDDSP2/lightning/lightning.out.js"></script>
     <script>        
     let monthlyPaymentValue = '';
